@@ -17,7 +17,7 @@ const EventPractice =() => {
     const onClick = () =>{
         alert(username + ':' +message);
         setForm({
-            username:'',
+            username:'', 
             message:''
         });
     };
